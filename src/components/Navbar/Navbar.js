@@ -9,7 +9,7 @@ const Navbar = ({ setIsOpen, isOpen }) => {
     <div className="nav">
       <div className="nav-logo">
         <a href="/">
-          <img src={logo} />
+          <img src={logo} alt="logo" />
         </a>
       </div>
       <FaBars fontSize={32} className="bars" onClick={() => setIsOpen(true)} />
