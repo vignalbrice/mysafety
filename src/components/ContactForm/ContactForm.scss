@@ -119,3 +119,12 @@ textarea::placeholder {
     width: 290px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: auto;
+  }
+  .wrapper form {
+    width: auto;
+  }
+}

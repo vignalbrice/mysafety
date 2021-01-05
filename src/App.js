@@ -23,7 +23,7 @@ function App() {
       <div className="header">
         <div className="header-slogan">
           <div className="slogan-logo">MySafety</div>
-          <div className="slogan">Our safety is our priority !</div>
+          <div className="slogan">Your safety is our priority !</div>
           <div className="stores">
             <a href="#appstore" className="store">
               <img src={appStore} alt="appstore" />
@@ -179,7 +179,7 @@ function App() {
               <figure>
                 <img src="./IMG_9577.jpg" alt="kallia_marilou_kampori" />
               </figure>
-              <p className="name">Kallia Marilou Kampori</p>
+              <p className="name">Kallia Marilou Kampouri</p>
               <p className="jobtype">Directrice Marketing</p>
               <div className="network">
                 <a href="https://www.linkedin.com/in/marilou-kallia-kampouri-ba0b881b6">
