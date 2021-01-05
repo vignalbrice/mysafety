@@ -1,0 +1,19 @@
+.card-price {
+  width: 100%;
+  position: relative;
+  padding: 30px;
+  border-radius: 3px;
+  text-align: center;
+  border: 1px solid rgba(9, 9, 9, 0.1);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+      0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: ease all 0.5s;
+  }
+}
