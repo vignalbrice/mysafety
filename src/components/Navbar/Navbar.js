@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBars, FaGitter } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 import logo from "../../logo.png";
 import "./Navbar.scss";
 const Navbar = ({ setIsOpen, isOpen }) => {
@@ -27,7 +27,7 @@ const Navbar = ({ setIsOpen, isOpen }) => {
           Questions ?
         </a>
         <div className="navbtn-link">
-          <a to="#sign-in">Télécharger l'app</a>
+          <a href="#sign-in">Télécharger l'app</a>
         </div>
       </div>
     </div>

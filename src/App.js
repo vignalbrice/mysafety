@@ -26,10 +26,10 @@ function App() {
           <div className="slogan">Our safety is our priority !</div>
           <div className="stores">
             <a href="#appstore" className="store">
-              <img src={appStore} />
+              <img src={appStore} alt="appstore" />
             </a>
             <a href="#playstore" className="store">
-              <img src={googleStore} />
+              <img src={googleStore} alt="playstore" />
             </a>
           </div>
         </div>
@@ -150,7 +150,7 @@ function App() {
           <div className="team-item">
             <div>
               <figure>
-                <img src="./IMG_4117.jpg" />
+                <img src="./IMG_4117.jpg" alt="lea_chouaib" />
               </figure>
               <p className="name">Léa Chouaib</p>
               <p className="jobtype">Directrice Juridique</p>
@@ -165,7 +165,7 @@ function App() {
             </div>
             <div>
               <figure>
-                <img src="./IMG_9576.jpg" />
+                <img src="./IMG_9576.jpg" alt="sevil_hiz" />
               </figure>
               <p className="name">Sevil Hiz</p>
               <p className="jobtype">Directrice Générale</p>
@@ -177,7 +177,7 @@ function App() {
             </div>
             <div>
               <figure>
-                <img src="./IMG_9577.jpg" />
+                <img src="./IMG_9577.jpg" alt="kallia_marilou_kampori" />
               </figure>
               <p className="name">Kallia Marilou Kampori</p>
               <p className="jobtype">Directrice Marketing</p>
